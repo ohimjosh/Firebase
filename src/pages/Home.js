@@ -1,8 +1,12 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import NavbarClone from "../components/NavbarClone";
 
 function Home() {
   return (
     <div>
+      <Navbar />
+      <NavbarClone />
       <section className="hero is-default is-bold">
         <div className="hero-body">
           <div className="container">
